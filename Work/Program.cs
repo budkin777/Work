@@ -1,11 +1,11 @@
 ﻿string[] arrayFirst = new string[4] {"hello", "2", "world", ":-)"};
 string[] arraySecond = new string[4];
 
-void PrintArray(string[] array)
+void PrintArray(string[] arr)
 {
-    for (int i = 0; i < array.Length; i++)
+    for (int i = 0; i < arr.Length; i++)
     {
-        Console.Write($"{array[i]} ");
+        Console.Write($"{arr[i]} ");
     }
     Console.WriteLine();
 }
